@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor challenge | Social Media Dashboard</title>
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="bg-pattern"></div>
+            <header class="dashboard-header">
+                <div class="heading-text">
+                    <h1 class="heading-title">Social Media Dashboard</h1>
+                    <span class="total-followers-count">Total Followers: 23,004</span>
+                </div>
+                <label for="mode" class="mode-label">
+                    <input type="checkbox" class="mode-input" id="mode" />
+                    Dark Mode
+                    <span class="mode-btn"></span>
+                </label>
+            </header>
+            <section class="followers-container">
+                <div class="followers-item facebook"> <!-- START FOLLOWERS ITEM -->
+                    <div class="username-and-social">
+                        <svg class="social-icon">
+                            <use xlink:href="./images/sprite.svg#icon-facebook"></use>
+                        </svg>
+                        <span class="username">@nathanf</span>
+                    </div>
+                    <div class="followers-count">
+                        <span class="followers-count-value">1987</span>
+                        <span class="followers-noun">Followers</span>
+                    </div>
+                    <div class="stat-change-rate">
+                        <svg class="stat-change-rate-icon">
+                            <use xlink:href="./images/sprite.svg#icon-up"></use>
+                        </svg>
+                        <span class="stat-change-rate-count stat-change-rate-count--green">12 Today</span>
+                    </div>
+                </div> <!-- END FOLLOWERS ITEM -->
+                <div class="followers-item twitter"> <!-- START FOLLOWERS ITEM -->
+                    <div class="username-and-social">
+                        <svg class="social-icon">
+                            <use xlink:href="./images/sprite.svg#icon-twitter"></use>
+                        </svg>
+                        <span class="username">@nathanf</span>
+                    </div>
+                    <div class="followers-count">
+                        <span class="followers-count-value">1044</span>
+                        <span class="followers-noun">Followers</span>
+                    </div>
+                    <div class="stat-change-rate">
+                        <svg class="stat-change-rate-icon">
+                            <use xlink:href="./images/sprite.svg#icon-up"></use>
+                        </svg>
+                        <span class="stat-change-rate-count stat-change-rate-count--green">99 Today</span>
+                    </div>
+                </div> <!-- END FOLLOWERS ITEM -->
+                <div class="followers-item instagram"> <!-- START FOLLOWERS ITEM -->
+                    <div class="username-and-social">
+                        <svg class="social-icon" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#DF4896"/><stop offset="50.913%" stop-color="#EE877E"/><stop offset="100%" stop-color="#FDC366"/></linearGradient></defs><path fill="url(#a)" d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zM10 0C7.284 0 6.944.012 5.878.06 2.246.227.228 2.242.06 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg>
+                        <span class="username">@nathanf</span>
+                    </div>
+                    <div class="followers-count">
+                        <span class="followers-count-value">11k</span>
+                        <span class="followers-noun">Followers</span>
+                    </div>
+                    <div class="stat-change-rate">
+                        <svg class="stat-change-rate-icon">
+                            <use xlink:href="./images/sprite.svg#icon-up"></use>
+                        </svg>
+                        <span class="stat-change-rate-count stat-change-rate-count--green">1099 Today</span>
+                    </div>
+                </div> <!-- END FOLLOWERS ITEM -->
+                <div class="followers-item youtube"> <!-- START FOLLOWERS ITEM -->
+                    <div class="username-and-social">
+                        <svg class="social-icon">
+                            <use xlink:href="./images/sprite.svg#icon-youtube"></use>
+                        </svg>
+                        <span class="username">@NathanF.</span>
+                    </div>
+                    <div class="followers-count">
+                        <span class="followers-count-value">8239</span>
+                        <span class="followers-noun">Subscribers</span>
+                    </div>
+                    <div class="stat-change-rate">
+                        <svg class="stat-change-rate-icon">
+                            <use xlink:href="./images/sprite.svg#icon-down"></use>
+                        </svg>
+                        <span class="stat-change-rate-count stat-change-rate-count--red">144 Today</span>
+                    </div>
+                </div> <!-- END FOLLOWERS ITEM -->
+            </section>
+            <section class="overview">
+                <div class="container">
+                    <h2 class="heading-title">Overview - Today</h2>
+                    <div class="overview-container">
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">87</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-up"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--green">3%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">52</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-down"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--red">2%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">5462</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span class="social-icon social-icon--instagram">
+                                    <img src="images/SVGs/icon-instagram.svg" alt="Instagram Icon">
+                                </span>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-up"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--green">2257%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">52k</span>
+                            </div>
+                            <div class="overview-stat">
+                                <span class="social-icon social-icon--instagram">
+                                    <img src="images/SVGs/icon-instagram.svg" alt="Instagram Icon">
+                                </span>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-up"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--green">1375%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">117</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-up"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--green">303%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">507</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-up"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--green">553%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">107</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-youtube"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-down"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--red">19%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                        <div class="overview-item"> <!-- START OVERVIEW ITEM -->
+                            <div class="overview-data">
+                                <h3 class="overview-item-title">Page Views</h3>
+                                <span class="overview-item-value">1407</span>
+                            </div>
+                            <div class="overview-stat">
+                                <svg class="social-icon">
+                                    <use xlink:href="./images/sprite.svg#icon-youtube"></use>
+                                </svg>
+                                <div class="stat-change-rate">
+                                    <svg class="stat-change-rate-icon">
+                                        <use xlink:href="./images/sprite.svg#icon-down"></use>
+                                    </svg>
+                                    <span class="stat-change-rate-count stat-change-rate-count--red">12%</span>
+                                </div>
+                            </div>
+                        </div> <!-- END OVERVIEW ITEM -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script>
+        let modeInp = document.querySelector('.mode-input');
+        modeInp.addEventListener('input', () =>{
+            if(modeInp.checked){
+                document.body.classList.add('light');
+            }else{
+                document.body.classList.remove('light');
+            }
+        });
+    </script>
+</body>
+</html>
