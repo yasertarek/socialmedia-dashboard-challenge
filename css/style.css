@@ -251,6 +251,30 @@ body.light .mode-btn::after{
 .overview-item-title{
     margin-bottom: 4rem;
 }
+.footer{
+    padding: 5rem 0;
+    text-align: center;
+}
+.copyright{
+    font-size: 1.2rem;
+    color: var(--color-text-sub);
+}
+.footer-link, .footer-link:link, .footer-link:visited{
+    font-size: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    position: relative;
+}
+.footer-link:hover{
+    -webkit-transform: scale(1.35) rotate(5deg) skewX(-5deg);
+    transform: scale(1.35) rotate(5deg) skewX(-5deg);
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
 @media only screen and (min-width: 37.5em){ /* 600px => 600 / 16 = 56.25em [TABLET MEDIA]*/
     html{
         font-size: 56.25%; /* 1rem = 9px */
