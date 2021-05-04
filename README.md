@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-social-media-dashboard-with-theme-switcher-gZv0UFp9s)
+- Live Site URL: [Github Pages](https://yasertarek.github.io/socialmedia-dashboard-challenge/)
 
 ## My process
 
